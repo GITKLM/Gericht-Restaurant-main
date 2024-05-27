@@ -20,7 +20,7 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
         <p className="p__opensans">&quot;La Clé Pour Bien Manger à deux pas de chez vous!&quot;</p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.spoon} alt="spoon" className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <FiFacebook />
           <FiTwitter />
